@@ -57,4 +57,4 @@ class BoletoItau(BoletoData):
                                              self.dv_agencia_conta_cedente,
                                              '000'
                                              )
-        return content
+        return str(content)
